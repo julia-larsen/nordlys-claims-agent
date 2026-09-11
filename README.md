@@ -37,6 +37,17 @@ once.
 
 ## Results
 
+**Currency correction:** every cost figure below is labeled "€" but was
+computed from `litellm.completion_cost()`, which is always denominated in
+USD — the pricing tables it draws from (Google's Gemini pricing page
+included) are USD-only, and no conversion was applied when these tables were
+built. The dollar figures themselves are correct; treat the "€" symbol below
+as "$" until these tables are regenerated. At the current rate (~$1 = €0.86,
+September 2026), actual euro costs are about 14% lower than shown — e.g. the
+holdout run's reported "€2.7268" total is really $2.7268 ≈ €2.35. See [Cost
+projection at scale](#cost-projection-at-scale) for figures with the
+conversion correctly applied.
+
 ### Dev set (n=20), two configurations, prompt v2, max_steps=16
 
 | metric | small (flash-lite) | large (flash) |
@@ -149,6 +160,72 @@ At Nordlys's current backlog (roughly triple normal volume, three weeks
 behind), even routing 20% to humans and auto-processing the rest at ~€0.08–
 €0.11/claim is a large reduction in the volume of full manual review, at a
 cost per claim that is trivial next to ~8 minutes of staff time.
+
+## Cost projection at scale
+
+Annual API cost if this were deployed, using the recommended configuration
+(large model, `no_decision` routed to a human) and the currency correction
+above applied properly (USD amounts × 0.86 → EUR, September 2026 rate).
+
+**Real historical Gemini pricing** (USD per million tokens), rather than an
+assumed decline curve:
+
+| Date | Model | Input $/M | Output $/M |
+|---|---|---|---|
+| Feb 2025 | Gemini 2.0 Flash | $0.15 | $0.60 |
+| Jun 2025 | Gemini 2.5 Flash | $0.30 | $2.50 |
+| Sep 2026 (now) | Gemini 3.5 Flash-Lite (our "small") | $0.30 | $2.50 |
+| Sep 2026 (now) | Gemini 3.8 Flash (our "large") | $0.75 | $3.75 |
+
+Two things follow from this table that matter more than "does AI get
+cheaper": from Feb to Jun 2025, **output-token price roughly quadrupled**
+when "thinking" tokens became standard and started billing at the output
+rate — the same phenomenon this project hit directly (§ Setup: both
+candidate large-model IDs returned empty output until `max_tokens` was
+raised, because the token budget was being consumed by invisible reasoning
+before any visible answer). Then, for the 15 months from Jun 2025 to now,
+**the price for that same tier did not move at all**. The trend for this
+class of workload has been one step increase followed by a long flat period,
+not a smooth curve — projecting a continued decline is not supported by the
+data actually available, and projecting a continued flat line is the best-
+evidenced default. A further step increase, if reasoning usage keeps
+expanding, is at least as plausible as a decrease.
+
+**Per-claim cost**, computed from this project's own measured token mix on
+the holdout run (60,940 input / 6,072 output tokens/claim, large-model
+config) rather than by rescaling the total cost, so that input- and
+output-price movements (which have moved very differently) propagate
+correctly:
+
+| Scenario | $/claim | €/claim |
+|---|---|---|
+| Floor — pricing reverts to Feb-2025 levels | $0.0128 | €0.0110 |
+| Base — current pricing holds flat (best-supported by the last 15 months of actual data) | $0.0685 | €0.0589 |
+| Ceiling — one more reasoning-driven repricing step, same magnitude as the one already observed (2.0→2.5) | $0.1368 | €0.1176 |
+
+**Annual projection**, at a few illustrative volumes — Nordlys's actual
+annual claim count is not stated anywhere in the case brief (only that
+volume "roughly tripled" and the team is "three weeks behind"), so this is
+parametrized rather than pinned to one guessed number:
+
+| Scenario | 2,000 claims/yr | 10,000/yr | 50,000/yr |
+|---|---|---|---|
+| Floor | €22 | €110 | €550 |
+| Base | €118 | €589 | €2,944 |
+| Ceiling | €235 | €1,176 | €5,882 |
+
+**What this does not include:** the human-review cost for the ~17.5–20% of
+claims routed to a person. The LLM-API figures above already include the
+wasted API spend on step-limited claims that never reach a decision (the
+per-claim average is total cost over *all* claims, not just resolved ones),
+but they say nothing about staff time. At the case's own figure of ~8
+minutes/claim for a fully manual review, and using the escalation rate above
+as an estimate of the reviewed fraction, that cost is straightforward to add
+given a loaded hourly staff rate — deliberately left out here rather than
+guessed. This projection also assumes claim complexity and the length of
+agent trajectories stay similar to the 60-claim fixture; a heavier real-world
+mix of line items per claim would raise both the token count per claim and
+the step-limit rate.
 
 ## Failure analysis
 
