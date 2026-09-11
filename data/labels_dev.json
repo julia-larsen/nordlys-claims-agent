@@ -1,0 +1,157 @@
+{
+  "C-001": {
+    "claim_id": "C-001",
+    "decision": "approve",
+    "reimbursable_eur": 845.93,
+    "applied_rules": [
+      "S11",
+      "S5"
+    ]
+  },
+  "C-002": {
+    "claim_id": "C-002",
+    "decision": "reject",
+    "reimbursable_eur": 0.0,
+    "applied_rules": [
+      "S10"
+    ]
+  },
+  "C-003": {
+    "claim_id": "C-003",
+    "decision": "escalate",
+    "reimbursable_eur": null,
+    "applied_rules": [
+      "S7"
+    ]
+  },
+  "C-004": {
+    "claim_id": "C-004",
+    "decision": "approve",
+    "reimbursable_eur": 614.81,
+    "applied_rules": [
+      "S11",
+      "S5"
+    ]
+  },
+  "C-005": {
+    "claim_id": "C-005",
+    "decision": "escalate",
+    "reimbursable_eur": null,
+    "applied_rules": [
+      "S9"
+    ]
+  },
+  "C-006": {
+    "claim_id": "C-006",
+    "decision": "approve",
+    "reimbursable_eur": 1083.92,
+    "applied_rules": [
+      "S11",
+      "S5"
+    ]
+  },
+  "C-007": {
+    "claim_id": "C-007",
+    "decision": "approve",
+    "reimbursable_eur": 861.54,
+    "applied_rules": []
+  },
+  "C-008": {
+    "claim_id": "C-008",
+    "decision": "approve",
+    "reimbursable_eur": 1631.33,
+    "applied_rules": []
+  },
+  "C-009": {
+    "claim_id": "C-009",
+    "decision": "escalate",
+    "reimbursable_eur": null,
+    "applied_rules": [
+      "S7"
+    ]
+  },
+  "C-010": {
+    "claim_id": "C-010",
+    "decision": "approve",
+    "reimbursable_eur": 899.73,
+    "applied_rules": [
+      "S11",
+      "S5"
+    ]
+  },
+  "C-011": {
+    "claim_id": "C-011",
+    "decision": "approve",
+    "reimbursable_eur": 1234.55,
+    "applied_rules": [
+      "S3"
+    ]
+  },
+  "C-012": {
+    "claim_id": "C-012",
+    "decision": "approve",
+    "reimbursable_eur": 616.73,
+    "applied_rules": [
+      "S11",
+      "S12"
+    ]
+  },
+  "C-013": {
+    "claim_id": "C-013",
+    "decision": "approve",
+    "reimbursable_eur": 803.8,
+    "applied_rules": []
+  },
+  "C-014": {
+    "claim_id": "C-014",
+    "decision": "escalate",
+    "reimbursable_eur": null,
+    "applied_rules": [
+      "S7"
+    ]
+  },
+  "C-015": {
+    "claim_id": "C-015",
+    "decision": "approve",
+    "reimbursable_eur": 517.84,
+    "applied_rules": [
+      "S12"
+    ]
+  },
+  "C-016": {
+    "claim_id": "C-016",
+    "decision": "approve",
+    "reimbursable_eur": 1005.36,
+    "applied_rules": []
+  },
+  "C-017": {
+    "claim_id": "C-017",
+    "decision": "reject",
+    "reimbursable_eur": 0.0,
+    "applied_rules": [
+      "S10"
+    ]
+  },
+  "C-018": {
+    "claim_id": "C-018",
+    "decision": "approve",
+    "reimbursable_eur": 981.32,
+    "applied_rules": [
+      "S5"
+    ]
+  },
+  "C-019": {
+    "claim_id": "C-019",
+    "decision": "approve",
+    "reimbursable_eur": 895.05,
+    "applied_rules": []
+  },
+  "C-020": {
+    "claim_id": "C-020",
+    "decision": "reject",
+    "reimbursable_eur": 0.0,
+    "applied_rules": [
+      "S10"
+    ]
+  }
+}

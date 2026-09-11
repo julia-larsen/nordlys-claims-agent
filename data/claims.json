@@ -1,0 +1,3122 @@
+[
+  {
+    "claim_id": "C-001",
+    "grantee_id": "G-011",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Geneva",
+    "submitted_on": "2025-12-29",
+    "justification": "Travelled to Geneva, steering committee meeting. Pre-approval reference PA-2025-912. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-001-L1",
+        "date": "2025-12-19",
+        "category": "lodging",
+        "description": "Hotel in Geneva, 1 nights",
+        "amount": 142.01,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-001-L2",
+        "date": "2025-12-19",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 145.81,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-001-L3",
+        "date": "2025-12-19",
+        "category": "rail",
+        "description": "Return rail to Geneva",
+        "amount": 170.77,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "distance_km": 340
+      },
+      {
+        "line_id": "C-001-L4",
+        "date": "2025-12-19",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 333.78,
+        "currency": "CHF",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-001-L5",
+        "date": "2025-12-20",
+        "category": "other",
+        "description": "Parking fine near the venue",
+        "amount": 24.54,
+        "currency": "CHF",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-002",
+    "grantee_id": "G-011",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Budapest",
+    "submitted_on": "2026-08-18",
+    "justification": "stakeholder interviews in Budapest, as agreed with my supervisor. Pre-approval reference PA-2026-216. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-002-L1",
+        "date": "2026-04-13",
+        "category": "lodging",
+        "description": "Hotel in Budapest, 3 nights",
+        "amount": 207.25,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-002-L2",
+        "date": "2026-04-13",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 194.42,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-002-L3",
+        "date": "2026-04-13",
+        "category": "air",
+        "description": "Return flight to Budapest",
+        "amount": 318.99,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 720
+      },
+      {
+        "line_id": "C-002-L4",
+        "date": "2026-04-14",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 40.99,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-003",
+    "grantee_id": "G-005",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Amsterdam",
+    "submitted_on": "2025-12-31",
+    "justification": "Claim covers the training week in Amsterdam last month.",
+    "line_items": [
+      {
+        "line_id": "C-003-L1",
+        "date": "2025-12-07",
+        "category": "lodging",
+        "description": "Hotel in Amsterdam, 4 nights",
+        "amount": 455.43,
+        "currency": "EUR",
+        "receipt_attached": false,
+        "nights": 4
+      },
+      {
+        "line_id": "C-003-L2",
+        "date": "2025-12-07",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 321.41,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-003-L3",
+        "date": "2025-12-07",
+        "category": "air",
+        "description": "Return flight to Amsterdam",
+        "amount": 211.83,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1650
+      },
+      {
+        "line_id": "C-003-L4",
+        "date": "2025-12-08",
+        "category": "other",
+        "description": "Minibar charge on hotel bill",
+        "amount": 15.96,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-004",
+    "grantee_id": "G-011",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Geneva",
+    "submitted_on": "2025-12-26",
+    "justification": "Claim covers the annual methods workshop in Geneva last month. Pre-approval reference PA-2025-635.",
+    "line_items": [
+      {
+        "line_id": "C-004-L1",
+        "date": "2025-11-20",
+        "category": "lodging",
+        "description": "Hotel in Geneva, 2 nights",
+        "amount": 2079.85,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-004-L2",
+        "date": "2025-11-20",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 1701.05,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-004-L3",
+        "date": "2025-11-20",
+        "category": "rail",
+        "description": "Return rail to Geneva",
+        "amount": 644.73,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "distance_km": 340
+      },
+      {
+        "line_id": "C-004-L4",
+        "date": "2025-11-21",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 111.76,
+        "currency": "DKK",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-004-L5",
+        "date": "2025-11-21",
+        "category": "other",
+        "description": "Wine with the project dinner",
+        "amount": 255.23,
+        "currency": "DKK",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-005",
+    "grantee_id": "G-001",
+    "budget_code": "BUD-MOBILITY-02",
+    "destination_city": "Amsterdam",
+    "submitted_on": "2025-11-24",
+    "justification": "Travelled to Amsterdam, partner site visit. Pre-approval reference PA-2025-662. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-005-L1",
+        "date": "2025-11-14",
+        "category": "lodging",
+        "description": "Hotel in Amsterdam, 2 nights",
+        "amount": 227.99,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-005-L2",
+        "date": "2025-11-14",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 176.23,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-005-L3",
+        "date": "2025-11-14",
+        "category": "rail",
+        "description": "Return rail to Amsterdam",
+        "amount": 138.26,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 480
+      },
+      {
+        "line_id": "C-005-L4",
+        "date": "2025-11-15",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 21.92,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-006",
+    "grantee_id": "G-007",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "London",
+    "submitted_on": "2025-11-22",
+    "justification": "Travelled to London, training week. Pre-approval reference PA-2025-572. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-006-L1",
+        "date": "2025-10-21",
+        "category": "lodging",
+        "description": "Hotel in London, 4 nights",
+        "amount": 504.49,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 4
+      },
+      {
+        "line_id": "C-006-L2",
+        "date": "2025-10-21",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 454.61,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-006-L3",
+        "date": "2025-10-21",
+        "category": "rail",
+        "description": "Return rail to London",
+        "amount": 124.82,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 340
+      },
+      {
+        "line_id": "C-006-L4",
+        "date": "2025-10-22",
+        "category": "other",
+        "description": "Parking fine near the venue",
+        "amount": 55.74,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-007",
+    "grantee_id": "G-009",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Zurich",
+    "submitted_on": "2026-05-28",
+    "justification": "Trip to Zurich for the steering committee meeting. Pre-approval reference PA-2026-303. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-007-L1",
+        "date": "2026-04-17",
+        "category": "lodging",
+        "description": "Hotel in Zurich, 3 nights",
+        "amount": 393.05,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-007-L2",
+        "date": "2026-04-17",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 281.25,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-007-L3",
+        "date": "2026-04-17",
+        "category": "air",
+        "description": "Return flight to Zurich",
+        "amount": 164.45,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 720
+      },
+      {
+        "line_id": "C-007-L4",
+        "date": "2026-04-18",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 22.79,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-008",
+    "grantee_id": "G-009",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Geneva",
+    "submitted_on": "2026-05-04",
+    "justification": "Claim covers the stakeholder interviews in Geneva last month. Pre-approval reference PA-2026-499. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-008-L1",
+        "date": "2026-04-04",
+        "category": "lodging",
+        "description": "Hotel in Geneva, 4 nights",
+        "amount": 6205.64,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "nights": 4
+      },
+      {
+        "line_id": "C-008-L2",
+        "date": "2026-04-04",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 3965.65,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-008-L3",
+        "date": "2026-04-04",
+        "category": "air",
+        "description": "Return flight to Geneva",
+        "amount": 4259.71,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "distance_km": 1100
+      },
+      {
+        "line_id": "C-008-L4",
+        "date": "2026-04-05",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 354.44,
+        "currency": "SEK",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-008-L5",
+        "date": "2026-04-04",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 3564.67,
+        "currency": "SEK",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-009",
+    "grantee_id": "G-012",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Copenhagen",
+    "submitted_on": "2025-10-28",
+    "justification": "Travelled to Copenhagen, steering committee meeting.",
+    "line_items": [
+      {
+        "line_id": "C-009-L1",
+        "date": "2025-10-18",
+        "category": "lodging",
+        "description": "Hotel in Copenhagen, 3 nights",
+        "amount": 423.26,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-009-L2",
+        "date": "2025-10-18",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 301.58,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-009-L3",
+        "date": "2025-10-18",
+        "category": "air",
+        "description": "Return flight to Copenhagen",
+        "amount": 307.85,
+        "currency": "EUR",
+        "receipt_attached": false,
+        "distance_km": 2100
+      }
+    ]
+  },
+  {
+    "claim_id": "C-010",
+    "grantee_id": "G-007",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Oslo",
+    "submitted_on": "2026-04-28",
+    "justification": "Travelled to Oslo, partner site visit. Pre-approval reference PA-2026-867. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-010-L1",
+        "date": "2026-03-20",
+        "category": "lodging",
+        "description": "Hotel in Oslo, 2 nights",
+        "amount": 280.57,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-010-L2",
+        "date": "2026-03-20",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 274.41,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-010-L3",
+        "date": "2026-03-20",
+        "category": "air",
+        "description": "Return flight to Oslo",
+        "amount": 322.29,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1100
+      },
+      {
+        "line_id": "C-010-L4",
+        "date": "2026-03-21",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 22.46,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-010-L5",
+        "date": "2026-03-20",
+        "category": "other",
+        "description": "Seat upgrade to extra legroom",
+        "amount": 44.79,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-011",
+    "grantee_id": "G-008",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Stockholm",
+    "submitted_on": "2026-03-26",
+    "justification": "data collection round in Stockholm, as agreed with my supervisor. Pre-approval reference PA-2026-499. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-011-L1",
+        "date": "2026-03-21",
+        "category": "lodging",
+        "description": "Hotel in Stockholm, 3 nights",
+        "amount": 3445.31,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-011-L2",
+        "date": "2026-03-21",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 1001.43,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-011-L3",
+        "date": "2026-03-21",
+        "category": "rail",
+        "description": "Return rail to Stockholm",
+        "amount": 717.06,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "distance_km": 560
+      },
+      {
+        "line_id": "C-011-L4",
+        "date": "2026-03-21",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 1248.44,
+        "currency": "PLN",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-012",
+    "grantee_id": "G-003",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Paris",
+    "submitted_on": "2026-07-14",
+    "justification": "Trip to Paris for the partner site visit. Pre-approval reference PA-2026-154. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-012-L1",
+        "date": "2026-06-06",
+        "category": "lodging",
+        "description": "Hotel in Paris, 1 nights",
+        "amount": 113.19,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-012-L2",
+        "date": "2026-06-06",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 166.09,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-012-L3",
+        "date": "2026-06-06",
+        "category": "air",
+        "description": "Return flight to Paris",
+        "amount": 337.83,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 480
+      },
+      {
+        "line_id": "C-012-L4",
+        "date": "2026-06-06",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 337.45,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-013",
+    "grantee_id": "G-012",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Berlin",
+    "submitted_on": "2026-04-09",
+    "justification": "Claim covers the data collection round in Berlin last month. Pre-approval reference PA-2026-162. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-013-L1",
+        "date": "2026-03-09",
+        "category": "lodging",
+        "description": "Hotel in Berlin, 3 nights",
+        "amount": 384.12,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-013-L2",
+        "date": "2026-03-09",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 261.55,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-013-L3",
+        "date": "2026-03-09",
+        "category": "rail",
+        "description": "Return rail to Berlin",
+        "amount": 143.9,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 560
+      },
+      {
+        "line_id": "C-013-L4",
+        "date": "2026-03-10",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 14.23,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-014",
+    "grantee_id": "G-002",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Riga",
+    "submitted_on": "2026-06-11",
+    "justification": "Claim covers the partner site visit in Riga last month. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-014-L1",
+        "date": "2026-05-15",
+        "category": "lodging",
+        "description": "Hotel in Riga, 2 nights",
+        "amount": 165.38,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-014-L2",
+        "date": "2026-05-15",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 130.67,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-014-L3",
+        "date": "2026-05-15",
+        "category": "air",
+        "description": "Return flight to Riga",
+        "amount": 202.86,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1100
+      },
+      {
+        "line_id": "C-014-L4",
+        "date": "2026-05-16",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 37.59,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-014-L5",
+        "date": "2026-05-15",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 348.94,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-014-L6",
+        "date": "2026-05-16",
+        "category": "other",
+        "description": "Wine with the project dinner",
+        "amount": 42.9,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-014-L7",
+        "date": "2026-05-16",
+        "category": "other",
+        "description": "Minibar charge on hotel bill",
+        "amount": 37.88,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-015",
+    "grantee_id": "G-008",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Riga",
+    "submitted_on": "2025-10-09",
+    "justification": "Claim covers the training week in Riga last month. Pre-approval reference PA-2025-691. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-015-L1",
+        "date": "2025-09-10",
+        "category": "lodging",
+        "description": "Hotel in Riga, 2 nights",
+        "amount": 164.94,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-015-L2",
+        "date": "2025-09-10",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 132.84,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-015-L3",
+        "date": "2025-09-10",
+        "category": "air",
+        "description": "Return flight to Riga",
+        "amount": 245.54,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 560
+      },
+      {
+        "line_id": "C-015-L4",
+        "date": "2025-09-10",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 220.06,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-016",
+    "grantee_id": "G-010",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Amsterdam",
+    "submitted_on": "2026-01-14",
+    "justification": "Travelled to Amsterdam, consortium kickoff. Pre-approval reference PA-2025-611. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-016-L1",
+        "date": "2025-12-06",
+        "category": "lodging",
+        "description": "Hotel in Amsterdam, 2 nights",
+        "amount": 242.37,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-016-L2",
+        "date": "2025-12-06",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 221.98,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-016-L3",
+        "date": "2025-12-06",
+        "category": "air",
+        "description": "Return flight to Amsterdam",
+        "amount": 184.82,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1100
+      },
+      {
+        "line_id": "C-016-L4",
+        "date": "2025-12-06",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 356.19,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-017",
+    "grantee_id": "G-012",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Zurich",
+    "submitted_on": "2026-02-15",
+    "justification": "Claim covers the consortium kickoff in Zurich last month. Pre-approval reference PA-2025-371. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-017-L1",
+        "date": "2025-11-05",
+        "category": "lodging",
+        "description": "Hotel in Zurich, 4 nights",
+        "amount": 4214.78,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "nights": 4
+      },
+      {
+        "line_id": "C-017-L2",
+        "date": "2025-11-05",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 2532.63,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-017-L3",
+        "date": "2025-11-05",
+        "category": "air",
+        "description": "Return flight to Zurich",
+        "amount": 2790.8,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "distance_km": 1650
+      },
+      {
+        "line_id": "C-017-L4",
+        "date": "2025-11-05",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 2283.91,
+        "currency": "DKK",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-018",
+    "grantee_id": "G-012",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Oslo",
+    "submitted_on": "2026-01-02",
+    "justification": "Travelled to Oslo, consortium kickoff. Pre-approval reference PA-2025-814. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-018-L1",
+        "date": "2025-12-10",
+        "category": "lodging",
+        "description": "Hotel in Oslo, 2 nights",
+        "amount": 286.55,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-018-L2",
+        "date": "2025-12-10",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 230.16,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-018-L3",
+        "date": "2025-12-10",
+        "category": "rail",
+        "description": "Return rail to Oslo",
+        "amount": 189.64,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 220
+      },
+      {
+        "line_id": "C-018-L4",
+        "date": "2025-12-11",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 21.15,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-018-L5",
+        "date": "2025-12-10",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 253.82,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-018-L6",
+        "date": "2025-12-11",
+        "category": "other",
+        "description": "Wine with the project dinner",
+        "amount": 35.19,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-019",
+    "grantee_id": "G-012",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Athens",
+    "submitted_on": "2025-12-24",
+    "justification": "Trip to Athens for the partner site visit. Pre-approval reference PA-2025-588. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-019-L1",
+        "date": "2025-12-11",
+        "category": "lodging",
+        "description": "Hotel in Athens, 3 nights",
+        "amount": 217.25,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-019-L2",
+        "date": "2025-12-11",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 197.98,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-019-L3",
+        "date": "2025-12-11",
+        "category": "rail",
+        "description": "Return rail to Athens",
+        "amount": 165.27,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 480
+      },
+      {
+        "line_id": "C-019-L4",
+        "date": "2025-12-12",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 26.9,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-019-L5",
+        "date": "2025-12-11",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 287.65,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-020",
+    "grantee_id": "G-001",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Stockholm",
+    "submitted_on": "2026-09-06",
+    "justification": "Trip to Stockholm for the consortium kickoff. Pre-approval reference PA-2026-490. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-020-L1",
+        "date": "2026-05-11",
+        "category": "lodging",
+        "description": "Hotel in Stockholm, 1 nights",
+        "amount": 162.23,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-020-L2",
+        "date": "2026-05-11",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 155.14,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-020-L3",
+        "date": "2026-05-11",
+        "category": "air",
+        "description": "Return flight to Stockholm",
+        "amount": 384.09,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1650
+      },
+      {
+        "line_id": "C-020-L4",
+        "date": "2026-05-12",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 26.83,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-021",
+    "grantee_id": "G-008",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Stockholm",
+    "submitted_on": "2026-03-03",
+    "justification": "Travelled to Stockholm, consortium kickoff. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-021-L1",
+        "date": "2026-02-03",
+        "category": "lodging",
+        "description": "Hotel in Stockholm, 2 nights",
+        "amount": 273.02,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-021-L2",
+        "date": "2026-02-03",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 173.42,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-021-L3",
+        "date": "2026-02-03",
+        "category": "rail",
+        "description": "Return rail to Stockholm",
+        "amount": 94.98,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "distance_km": 480
+      }
+    ]
+  },
+  {
+    "claim_id": "C-022",
+    "grantee_id": "G-011",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Copenhagen",
+    "submitted_on": "2026-04-03",
+    "justification": "Trip to Copenhagen for the partner site visit. Pre-approval reference PA-2026-791. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-022-L1",
+        "date": "2026-03-15",
+        "category": "lodging",
+        "description": "Hotel in Copenhagen, 2 nights",
+        "amount": 521.9,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-022-L2",
+        "date": "2026-03-15",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 231.79,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-022-L3",
+        "date": "2026-03-15",
+        "category": "rail",
+        "description": "Return rail to Copenhagen",
+        "amount": 171.67,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 560
+      },
+      {
+        "line_id": "C-022-L4",
+        "date": "2026-03-16",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 30.3,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-022-L5",
+        "date": "2026-03-15",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 273.21,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-023",
+    "grantee_id": "G-002",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "London",
+    "submitted_on": "2026-05-22",
+    "justification": "steering committee meeting in London, as agreed with my supervisor. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-023-L1",
+        "date": "2026-04-15",
+        "category": "lodging",
+        "description": "Hotel in London, 4 nights",
+        "amount": 624.11,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 4
+      },
+      {
+        "line_id": "C-023-L2",
+        "date": "2026-04-15",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 324.6,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-023-L3",
+        "date": "2026-04-15",
+        "category": "air",
+        "description": "Return flight to London",
+        "amount": 383.95,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1650
+      },
+      {
+        "line_id": "C-023-L4",
+        "date": "2026-04-16",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 26.97,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-023-L5",
+        "date": "2026-04-16",
+        "category": "other",
+        "description": "Minibar charge on hotel bill",
+        "amount": 17.0,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-023-L6",
+        "date": "2026-04-15",
+        "category": "other",
+        "description": "Seat upgrade to extra legroom",
+        "amount": 89.07,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-024",
+    "grantee_id": "G-007",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Vienna",
+    "submitted_on": "2026-02-26",
+    "justification": "Travelled to Vienna, annual methods workshop. Pre-approval reference PA-2026-798.",
+    "line_items": [
+      {
+        "line_id": "C-024-L1",
+        "date": "2026-01-16",
+        "category": "lodging",
+        "description": "Hotel in Vienna, 2 nights",
+        "amount": 395.25,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-024-L2",
+        "date": "2026-01-16",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 241.54,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-024-L3",
+        "date": "2026-01-16",
+        "category": "air",
+        "description": "Return flight to Vienna",
+        "amount": 264.67,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 2100
+      },
+      {
+        "line_id": "C-024-L4",
+        "date": "2026-01-17",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 28.88,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-024-L5",
+        "date": "2026-01-16",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 181.88,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-024-L6",
+        "date": "2026-01-17",
+        "category": "other",
+        "description": "Wine with the project dinner",
+        "amount": 63.73,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-025",
+    "grantee_id": "G-012",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Lisbon",
+    "submitted_on": "2025-09-27",
+    "justification": "Claim covers the annual methods workshop in Lisbon last month. Pre-approval reference PA-2025-533. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-025-L1",
+        "date": "2025-09-14",
+        "category": "lodging",
+        "description": "Hotel in Lisbon, 2 nights",
+        "amount": 158.88,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-025-L2",
+        "date": "2025-09-14",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 147.34,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-025-L3",
+        "date": "2025-09-14",
+        "category": "air",
+        "description": "Return flight to Lisbon",
+        "amount": 220.64,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1650
+      },
+      {
+        "line_id": "C-025-L4",
+        "date": "2025-09-14",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 273.49,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-026",
+    "grantee_id": "G-007",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Lisbon",
+    "submitted_on": "2026-05-22",
+    "justification": "Trip to Lisbon for the annual methods workshop. Pre-approval reference PA-2026-906. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-026-L1",
+        "date": "2026-04-14",
+        "category": "lodging",
+        "description": "Hotel in Lisbon, 2 nights",
+        "amount": 1514.66,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-026-L2",
+        "date": "2026-04-14",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 1948.82,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-026-L3",
+        "date": "2026-04-14",
+        "category": "air",
+        "description": "Return flight to Lisbon",
+        "amount": 4627.58,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "distance_km": 720
+      },
+      {
+        "line_id": "C-026-L4",
+        "date": "2026-04-14",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 3835.17,
+        "currency": "SEK",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-027",
+    "grantee_id": "G-007",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Berlin",
+    "submitted_on": "2025-11-10",
+    "justification": "Claim covers the annual methods workshop in Berlin last month. Pre-approval reference PA-2025-832. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-027-L1",
+        "date": "2025-11-04",
+        "category": "lodging",
+        "description": "Hotel in Berlin, 4 nights",
+        "amount": 2908.3,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "nights": 4
+      },
+      {
+        "line_id": "C-027-L2",
+        "date": "2025-11-04",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 1609.4,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-027-L3",
+        "date": "2025-11-04",
+        "category": "rail",
+        "description": "Return rail to Berlin",
+        "amount": 340.93,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "distance_km": 220
+      },
+      {
+        "line_id": "C-027-L4",
+        "date": "2025-11-05",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 125.2,
+        "currency": "PLN",
+        "receipt_attached": false
+      },
+      {
+        "line_id": "C-027-L5",
+        "date": "2025-11-04",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 1427.9,
+        "currency": "PLN",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-028",
+    "grantee_id": "G-009",
+    "budget_code": "BUD-MOBILITY-02",
+    "destination_city": "Warsaw",
+    "submitted_on": "2026-02-17",
+    "justification": "Travelled to Warsaw, annual methods workshop. Pre-approval reference PA-2026-320. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-028-L1",
+        "date": "2026-01-16",
+        "category": "lodging",
+        "description": "Hotel in Warsaw, 2 nights",
+        "amount": 696.38,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-028-L2",
+        "date": "2026-01-16",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 684.12,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-028-L3",
+        "date": "2026-01-16",
+        "category": "air",
+        "description": "Return flight to Warsaw",
+        "amount": 1042.87,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "distance_km": 720
+      },
+      {
+        "line_id": "C-028-L4",
+        "date": "2026-01-16",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 888.88,
+        "currency": "PLN",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-029",
+    "grantee_id": "G-009",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Stockholm",
+    "submitted_on": "2026-01-19",
+    "justification": "Trip to Stockholm for the stakeholder interviews. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-029-L1",
+        "date": "2025-12-17",
+        "category": "lodging",
+        "description": "Hotel in Stockholm, 3 nights",
+        "amount": 444.24,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-029-L2",
+        "date": "2025-12-17",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 272.03,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-029-L3",
+        "date": "2025-12-17",
+        "category": "air",
+        "description": "Return flight to Stockholm",
+        "amount": 317.17,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1100
+      }
+    ]
+  },
+  {
+    "claim_id": "C-030",
+    "grantee_id": "G-003",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Budapest",
+    "submitted_on": "2026-04-29",
+    "justification": "Claim covers the stakeholder interviews in Budapest last month. Pre-approval reference PA-2026-547. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-030-L1",
+        "date": "2026-04-08",
+        "category": "lodging",
+        "description": "Hotel in Budapest, 2 nights",
+        "amount": 135.63,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-030-L2",
+        "date": "2026-04-08",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 211.98,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-030-L3",
+        "date": "2026-04-08",
+        "category": "air",
+        "description": "Return flight to Budapest",
+        "amount": 379.9,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1650
+      },
+      {
+        "line_id": "C-030-L4",
+        "date": "2026-04-09",
+        "category": "meals",
+        "description": "Lunch with partner organisation",
+        "amount": 36.85,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-031",
+    "grantee_id": "G-008",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Copenhagen",
+    "submitted_on": "2026-01-16",
+    "justification": "Trip to Copenhagen for the training week.",
+    "line_items": [
+      {
+        "line_id": "C-031-L1",
+        "date": "2025-12-18",
+        "category": "lodging",
+        "description": "Hotel in Copenhagen, 3 nights",
+        "amount": 432.69,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-031-L2",
+        "date": "2025-12-18",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 249.91,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-031-L3",
+        "date": "2025-12-18",
+        "category": "rail",
+        "description": "Return rail to Copenhagen",
+        "amount": 132.19,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 340
+      }
+    ]
+  },
+  {
+    "claim_id": "C-032",
+    "grantee_id": "G-005",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Amsterdam",
+    "submitted_on": "2026-05-20",
+    "justification": "Trip to Amsterdam for the steering committee meeting. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-032-L1",
+        "date": "2026-05-07",
+        "category": "lodging",
+        "description": "Hotel in Amsterdam, 1 nights",
+        "amount": 131.75,
+        "currency": "EUR",
+        "receipt_attached": false,
+        "nights": 1
+      },
+      {
+        "line_id": "C-032-L2",
+        "date": "2026-05-07",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 131.45,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-032-L3",
+        "date": "2026-05-07",
+        "category": "rail",
+        "description": "Return rail to Amsterdam",
+        "amount": 170.33,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 220
+      },
+      {
+        "line_id": "C-032-L4",
+        "date": "2026-05-08",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 26.53,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-033",
+    "grantee_id": "G-008",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Riga",
+    "submitted_on": "2026-07-17",
+    "justification": "Trip to Riga for the annual methods workshop. Pre-approval reference PA-2026-267. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-033-L1",
+        "date": "2026-06-07",
+        "category": "lodging",
+        "description": "Hotel in Riga, 3 nights",
+        "amount": 3008.22,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-033-L2",
+        "date": "2026-06-07",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 1803.23,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-033-L3",
+        "date": "2026-06-07",
+        "category": "rail",
+        "description": "Return rail to Riga",
+        "amount": 2028.71,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "distance_km": 560
+      },
+      {
+        "line_id": "C-033-L4",
+        "date": "2026-06-08",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 270.11,
+        "currency": "SEK",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-033-L5",
+        "date": "2026-06-07",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 1530.07,
+        "currency": "SEK",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-033-L6",
+        "date": "2026-06-08",
+        "category": "other",
+        "description": "Wine with the project dinner",
+        "amount": 555.11,
+        "currency": "SEK",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-034",
+    "grantee_id": "G-008",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Dublin",
+    "submitted_on": "2026-05-31",
+    "justification": "training week in Dublin, as agreed with my supervisor. Pre-approval reference PA-2026-879. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-034-L1",
+        "date": "2026-01-12",
+        "category": "lodging",
+        "description": "Hotel in Dublin, 2 nights",
+        "amount": 176.35,
+        "currency": "GBP",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-034-L2",
+        "date": "2026-01-12",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 126.31,
+        "currency": "GBP",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-034-L3",
+        "date": "2026-01-12",
+        "category": "rail",
+        "description": "Return rail to Dublin",
+        "amount": 113.32,
+        "currency": "GBP",
+        "receipt_attached": true,
+        "distance_km": 480
+      }
+    ]
+  },
+  {
+    "claim_id": "C-035",
+    "grantee_id": "G-009",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Zurich",
+    "submitted_on": "2025-10-24",
+    "justification": "Claim covers the consortium kickoff in Zurich last month. Pre-approval reference PA-2025-145. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-035-L1",
+        "date": "2025-09-19",
+        "category": "lodging",
+        "description": "Hotel in Zurich, 2 nights",
+        "amount": 277.42,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-035-L2",
+        "date": "2025-09-19",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 213.62,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-035-L3",
+        "date": "2025-09-19",
+        "category": "rail",
+        "description": "Return rail to Zurich",
+        "amount": 88.48,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 340
+      },
+      {
+        "line_id": "C-035-L4",
+        "date": "2025-09-19",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 212.02,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-035-L5",
+        "date": "2025-09-19",
+        "category": "other",
+        "description": "Seat upgrade to extra legroom",
+        "amount": 77.73,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-036",
+    "grantee_id": "G-004",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Vienna",
+    "submitted_on": "2026-03-24",
+    "justification": "Travelled to Vienna, data collection round. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-036-L1",
+        "date": "2026-02-12",
+        "category": "lodging",
+        "description": "Hotel in Vienna, 4 nights",
+        "amount": 1753.83,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "nights": 4
+      },
+      {
+        "line_id": "C-036-L2",
+        "date": "2026-02-12",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 1452.47,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-036-L3",
+        "date": "2026-02-12",
+        "category": "air",
+        "description": "Return flight to Vienna",
+        "amount": 1507.89,
+        "currency": "PLN",
+        "receipt_attached": true,
+        "distance_km": 1650
+      },
+      {
+        "line_id": "C-036-L4",
+        "date": "2026-02-13",
+        "category": "meals",
+        "description": "Lunch with partner organisation",
+        "amount": 202.56,
+        "currency": "PLN",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-037",
+    "grantee_id": "G-011",
+    "budget_code": "BUD-FIELD-02",
+    "destination_city": "Copenhagen",
+    "submitted_on": "2026-07-15",
+    "justification": "steering committee meeting in Copenhagen, as agreed with my supervisor. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-037-L1",
+        "date": "2026-06-18",
+        "category": "lodging",
+        "description": "Hotel in Copenhagen, 1 nights",
+        "amount": 154.16,
+        "currency": "EUR",
+        "receipt_attached": false,
+        "nights": 1
+      },
+      {
+        "line_id": "C-037-L2",
+        "date": "2026-06-18",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 144.55,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-037-L3",
+        "date": "2026-06-18",
+        "category": "rail",
+        "description": "Return rail to Copenhagen",
+        "amount": 102.45,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 480
+      }
+    ]
+  },
+  {
+    "claim_id": "C-038",
+    "grantee_id": "G-002",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Vienna",
+    "submitted_on": "2026-03-27",
+    "justification": "Travelled to Vienna, consortium kickoff. Pre-approval reference PA-2026-595. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-038-L1",
+        "date": "2026-03-09",
+        "category": "lodging",
+        "description": "Hotel in Vienna, 1 nights",
+        "amount": 109.81,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-038-L2",
+        "date": "2026-03-09",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 104.09,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-038-L3",
+        "date": "2026-03-09",
+        "category": "air",
+        "description": "Return flight to Vienna",
+        "amount": 300.68,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 480
+      },
+      {
+        "line_id": "C-038-L4",
+        "date": "2026-03-10",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 29.9,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-039",
+    "grantee_id": "G-006",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Oslo",
+    "submitted_on": "2026-07-16",
+    "justification": "Trip to Oslo for the annual methods workshop. Pre-approval reference PA-2026-839. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-039-L1",
+        "date": "2026-06-19",
+        "category": "lodging",
+        "description": "Hotel in Oslo, 2 nights",
+        "amount": 263.76,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-039-L2",
+        "date": "2026-06-19",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 271.99,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-039-L3",
+        "date": "2026-06-19",
+        "category": "air",
+        "description": "Return flight to Oslo",
+        "amount": 312.75,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 340
+      },
+      {
+        "line_id": "C-039-L4",
+        "date": "2026-06-20",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 32.4,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-040",
+    "grantee_id": "G-004",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Vienna",
+    "submitted_on": "2026-05-09",
+    "justification": "Travelled to Vienna, consortium kickoff. Pre-approval reference PA-2026-203. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-040-L1",
+        "date": "2026-04-18",
+        "category": "lodging",
+        "description": "Hotel in Vienna, 1 nights",
+        "amount": 101.02,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-040-L2",
+        "date": "2026-04-18",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 126.61,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-040-L3",
+        "date": "2026-04-18",
+        "category": "rail",
+        "description": "Return rail to Vienna",
+        "amount": 80.54,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 340
+      },
+      {
+        "line_id": "C-040-L4",
+        "date": "2026-04-18",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 275.29,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-041",
+    "grantee_id": "G-006",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "London",
+    "submitted_on": "2026-03-04",
+    "justification": "Claim covers the data collection round in London last month. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-041-L1",
+        "date": "2026-02-13",
+        "category": "lodging",
+        "description": "Hotel in London, 2 nights",
+        "amount": 3212.26,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-041-L2",
+        "date": "2026-02-13",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 2761.36,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-041-L3",
+        "date": "2026-02-13",
+        "category": "rail",
+        "description": "Return rail to London",
+        "amount": 2161.33,
+        "currency": "SEK",
+        "receipt_attached": true,
+        "distance_km": 560
+      },
+      {
+        "line_id": "C-041-L4",
+        "date": "2026-02-13",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 2599.16,
+        "currency": "SEK",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-042",
+    "grantee_id": "G-012",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Vienna",
+    "submitted_on": "2026-03-10",
+    "justification": "training week in Vienna, as agreed with my supervisor. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-042-L1",
+        "date": "2026-02-06",
+        "category": "lodging",
+        "description": "Hotel in Vienna, 2 nights",
+        "amount": 1514.61,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-042-L2",
+        "date": "2026-02-06",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 1350.89,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-042-L3",
+        "date": "2026-02-06",
+        "category": "rail",
+        "description": "Return rail to Vienna",
+        "amount": 1374.76,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "distance_km": 340
+      },
+      {
+        "line_id": "C-042-L4",
+        "date": "2026-02-07",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 109.37,
+        "currency": "DKK",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-043",
+    "grantee_id": "G-003",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Lisbon",
+    "submitted_on": "2026-05-29",
+    "justification": "Claim covers the data collection round in Lisbon last month. Pre-approval reference PA-2026-534.",
+    "line_items": [
+      {
+        "line_id": "C-043-L1",
+        "date": "2026-05-18",
+        "category": "lodging",
+        "description": "Hotel in Lisbon, 3 nights",
+        "amount": 205.76,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-043-L2",
+        "date": "2026-05-18",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 287.5,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-043-L3",
+        "date": "2026-05-18",
+        "category": "air",
+        "description": "Return flight to Lisbon",
+        "amount": 339.73,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1100
+      },
+      {
+        "line_id": "C-043-L4",
+        "date": "2026-05-19",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 35.53,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-043-L5",
+        "date": "2026-05-18",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 148.53,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-043-L6",
+        "date": "2026-05-19",
+        "category": "other",
+        "description": "Wine with the project dinner",
+        "amount": 31.99,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-043-L7",
+        "date": "2026-05-19",
+        "category": "other",
+        "description": "Minibar charge on hotel bill",
+        "amount": 19.44,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-044",
+    "grantee_id": "G-010",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Budapest",
+    "submitted_on": "2026-01-07",
+    "justification": "steering committee meeting in Budapest, as agreed with my supervisor. Pre-approval reference PA-2025-885.",
+    "line_items": [
+      {
+        "line_id": "C-044-L1",
+        "date": "2025-12-13",
+        "category": "lodging",
+        "description": "Hotel in Budapest, 1 nights",
+        "amount": 71.31,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-044-L2",
+        "date": "2025-12-13",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 111.52,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-044-L3",
+        "date": "2025-12-13",
+        "category": "air",
+        "description": "Return flight to Budapest",
+        "amount": 301.99,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1100
+      },
+      {
+        "line_id": "C-044-L4",
+        "date": "2025-12-14",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 37.98,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-044-L5",
+        "date": "2025-12-14",
+        "category": "other",
+        "description": "Minibar charge on hotel bill",
+        "amount": 21.53,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-045",
+    "grantee_id": "G-001",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Oslo",
+    "submitted_on": "2025-10-26",
+    "justification": "Trip to Oslo for the data collection round. Pre-approval reference PA-2025-467. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-045-L1",
+        "date": "2025-10-08",
+        "category": "lodging",
+        "description": "Hotel in Oslo, 1 nights",
+        "amount": 1173.2,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-045-L2",
+        "date": "2025-10-08",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 1030.8,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-045-L3",
+        "date": "2025-10-08",
+        "category": "rail",
+        "description": "Return rail to Oslo",
+        "amount": 1222.97,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "distance_km": 560
+      },
+      {
+        "line_id": "C-045-L4",
+        "date": "2025-10-08",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 1578.27,
+        "currency": "DKK",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-045-L5",
+        "date": "2025-10-09",
+        "category": "other",
+        "description": "Minibar charge on hotel bill",
+        "amount": 242.61,
+        "currency": "DKK",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-045-L6",
+        "date": "2025-10-09",
+        "category": "meals",
+        "description": "Lunch with partner organisation",
+        "amount": 374.82,
+        "currency": "DKK",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-046",
+    "grantee_id": "G-002",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Dublin",
+    "submitted_on": "2025-12-20",
+    "justification": "Travelled to Dublin, training week. Pre-approval reference PA-2025-473. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-046-L1",
+        "date": "2025-11-09",
+        "category": "lodging",
+        "description": "Hotel in Dublin, 3 nights",
+        "amount": 341.34,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-046-L2",
+        "date": "2025-11-09",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 193.0,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-046-L3",
+        "date": "2025-11-09",
+        "category": "air",
+        "description": "Return flight to Dublin",
+        "amount": 351.86,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "distance_km": 720
+      },
+      {
+        "line_id": "C-046-L4",
+        "date": "2025-11-10",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 14.5,
+        "currency": "CHF",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-046-L5",
+        "date": "2025-11-10",
+        "category": "other",
+        "description": "Wine with the project dinner",
+        "amount": 28.83,
+        "currency": "CHF",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-047",
+    "grantee_id": "G-002",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Lisbon",
+    "submitted_on": "2025-10-14",
+    "justification": "Claim covers the training week in Lisbon last month. Pre-approval reference PA-2025-562. Happy to provide more detail if needed.",
+    "line_items": [
+      {
+        "line_id": "C-047-L1",
+        "date": "2025-09-17",
+        "category": "lodging",
+        "description": "Hotel in Lisbon, 4 nights",
+        "amount": 316.02,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 4
+      },
+      {
+        "line_id": "C-047-L2",
+        "date": "2025-09-17",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 195.75,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-047-L3",
+        "date": "2025-09-17",
+        "category": "air",
+        "description": "Return flight to Lisbon",
+        "amount": 393.0,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1100
+      },
+      {
+        "line_id": "C-047-L4",
+        "date": "2025-09-17",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 224.29,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-048",
+    "grantee_id": "G-007",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Geneva",
+    "submitted_on": "2025-11-22",
+    "justification": "Travelled to Geneva, consortium kickoff. Pre-approval reference PA-2025-236. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-048-L1",
+        "date": "2025-10-13",
+        "category": "lodging",
+        "description": "Hotel in Geneva, 3 nights",
+        "amount": 442.92,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-048-L2",
+        "date": "2025-10-13",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 356.31,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-048-L3",
+        "date": "2025-10-13",
+        "category": "rail",
+        "description": "Return rail to Geneva",
+        "amount": 122.82,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 220
+      }
+    ]
+  },
+  {
+    "claim_id": "C-049",
+    "grantee_id": "G-002",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Dublin",
+    "submitted_on": "2026-03-30",
+    "justification": "partner site visit in Dublin, as agreed with my supervisor. Pre-approval reference PA-2026-759. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-049-L1",
+        "date": "2026-03-11",
+        "category": "lodging",
+        "description": "Hotel in Dublin, 2 nights",
+        "amount": 209.49,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 2
+      },
+      {
+        "line_id": "C-049-L2",
+        "date": "2026-03-11",
+        "category": "per_diem",
+        "description": "Subsistence, 3 days",
+        "amount": 149.41,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 3
+      },
+      {
+        "line_id": "C-049-L3",
+        "date": "2026-03-11",
+        "category": "air",
+        "description": "Return flight to Dublin",
+        "amount": 348.58,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 1650
+      },
+      {
+        "line_id": "C-049-L4",
+        "date": "2026-03-12",
+        "category": "other",
+        "description": "Wine with the project dinner",
+        "amount": 57.4,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-050",
+    "grantee_id": "G-006",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Copenhagen",
+    "submitted_on": "2026-06-25",
+    "justification": "Trip to Copenhagen for the data collection round. Pre-approval reference PA-2026-450. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-050-L1",
+        "date": "2026-06-05",
+        "category": "lodging",
+        "description": "Hotel in Copenhagen, 1 nights",
+        "amount": 983.63,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-050-L2",
+        "date": "2026-06-05",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 1393.37,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-050-L3",
+        "date": "2026-06-05",
+        "category": "rail",
+        "description": "Return rail to Copenhagen",
+        "amount": 1224.96,
+        "currency": "DKK",
+        "receipt_attached": true,
+        "distance_km": 480
+      },
+      {
+        "line_id": "C-050-L4",
+        "date": "2026-06-06",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 208.69,
+        "currency": "DKK",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-051",
+    "grantee_id": "G-001",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Paris",
+    "submitted_on": "2025-12-24",
+    "justification": "Trip to Paris for the stakeholder interviews. Pre-approval reference PA-2025-247. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-051-L1",
+        "date": "2025-12-04",
+        "category": "lodging",
+        "description": "Hotel in Paris, 1 nights",
+        "amount": 124.0,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-051-L2",
+        "date": "2025-12-04",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 118.37,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-051-L3",
+        "date": "2025-12-04",
+        "category": "rail",
+        "description": "Return rail to Paris",
+        "amount": 148.84,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 560
+      },
+      {
+        "line_id": "C-051-L4",
+        "date": "2025-12-04",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 132.37,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-052",
+    "grantee_id": "G-007",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Berlin",
+    "submitted_on": "2026-03-11",
+    "justification": "Claim covers the annual methods workshop in Berlin last month. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-052-L1",
+        "date": "2026-02-19",
+        "category": "lodging",
+        "description": "Hotel in Berlin, 1 nights",
+        "amount": 112.04,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-052-L2",
+        "date": "2026-02-19",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 150.47,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-052-L3",
+        "date": "2026-02-19",
+        "category": "rail",
+        "description": "Return rail to Berlin",
+        "amount": 125.65,
+        "currency": "CHF",
+        "receipt_attached": true,
+        "distance_km": 220
+      },
+      {
+        "line_id": "C-052-L4",
+        "date": "2026-02-19",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 194.97,
+        "currency": "CHF",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-053",
+    "grantee_id": "G-010",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Geneva",
+    "submitted_on": "2026-01-26",
+    "justification": "partner site visit in Geneva, as agreed with my supervisor. Pre-approval reference PA-2026-182. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-053-L1",
+        "date": "2026-01-04",
+        "category": "lodging",
+        "description": "Hotel in Geneva, 1 nights",
+        "amount": 156.19,
+        "currency": "EUR",
+        "receipt_attached": false,
+        "nights": 1
+      },
+      {
+        "line_id": "C-053-L2",
+        "date": "2026-01-04",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 182.29,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-053-L3",
+        "date": "2026-01-04",
+        "category": "air",
+        "description": "Return flight to Geneva",
+        "amount": 333.43,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 720
+      },
+      {
+        "line_id": "C-053-L4",
+        "date": "2026-01-05",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 15.53,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-054",
+    "grantee_id": "G-004",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Dublin",
+    "submitted_on": "2026-05-22",
+    "justification": "Travelled to Dublin, partner site visit. Pre-approval reference PA-2026-220. Receipts are attached where I still had them.",
+    "line_items": [
+      {
+        "line_id": "C-054-L1",
+        "date": "2026-04-16",
+        "category": "lodging",
+        "description": "Hotel in Dublin, 1 nights",
+        "amount": 111.52,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-054-L2",
+        "date": "2026-04-16",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 132.47,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-054-L3",
+        "date": "2026-04-16",
+        "category": "air",
+        "description": "Return flight to Dublin",
+        "amount": 323.67,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 220
+      },
+      {
+        "line_id": "C-054-L4",
+        "date": "2026-04-17",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 20.58,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-055",
+    "grantee_id": "G-004",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Lisbon",
+    "submitted_on": "2025-12-05",
+    "justification": "Travelled to Lisbon, steering committee meeting. Pre-approval reference PA-2025-289. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-055-L1",
+        "date": "2025-11-10",
+        "category": "lodging",
+        "description": "Hotel in Lisbon, 3 nights",
+        "amount": 240.06,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-055-L2",
+        "date": "2025-11-10",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 196.51,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-055-L3",
+        "date": "2025-11-10",
+        "category": "rail",
+        "description": "Return rail to Lisbon",
+        "amount": 177.85,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 220
+      }
+    ]
+  },
+  {
+    "claim_id": "C-056",
+    "grantee_id": "G-008",
+    "budget_code": "BUD-MOBILITY-01",
+    "destination_city": "Geneva",
+    "submitted_on": "2026-09-25",
+    "justification": "steering committee meeting in Geneva, as agreed with my supervisor. Pre-approval reference PA-2026-469. Sorry this is late, it has been a busy quarter.",
+    "line_items": [
+      {
+        "line_id": "C-056-L1",
+        "date": "2026-05-18",
+        "category": "lodging",
+        "description": "Hotel in Geneva, 4 nights",
+        "amount": 591.19,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 4
+      },
+      {
+        "line_id": "C-056-L2",
+        "date": "2026-05-18",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 310.2,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-056-L3",
+        "date": "2026-05-18",
+        "category": "air",
+        "description": "Return flight to Geneva",
+        "amount": 219.0,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 2100
+      },
+      {
+        "line_id": "C-056-L4",
+        "date": "2026-05-19",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 13.15,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-057",
+    "grantee_id": "G-008",
+    "budget_code": "BUD-CONF-01",
+    "destination_city": "Stockholm",
+    "submitted_on": "2025-11-10",
+    "justification": "Claim covers the annual methods workshop in Stockholm last month. Pre-approval reference PA-2025-105.",
+    "line_items": [
+      {
+        "line_id": "C-057-L1",
+        "date": "2025-10-04",
+        "category": "lodging",
+        "description": "Hotel in Stockholm, 3 nights",
+        "amount": 463.8,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 3
+      },
+      {
+        "line_id": "C-057-L2",
+        "date": "2025-10-04",
+        "category": "per_diem",
+        "description": "Subsistence, 4 days",
+        "amount": 252.53,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 4
+      },
+      {
+        "line_id": "C-057-L3",
+        "date": "2025-10-04",
+        "category": "rail",
+        "description": "Return rail to Stockholm",
+        "amount": 127.72,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 560
+      },
+      {
+        "line_id": "C-057-L4",
+        "date": "2025-10-05",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 20.69,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-057-L5",
+        "date": "2025-10-04",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 154.06,
+        "currency": "EUR",
+        "receipt_attached": true
+      },
+      {
+        "line_id": "C-057-L6",
+        "date": "2025-10-05",
+        "category": "other",
+        "description": "Parking fine near the venue",
+        "amount": 35.64,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-058",
+    "grantee_id": "G-011",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Riga",
+    "submitted_on": "2025-11-09",
+    "justification": "annual methods workshop in Riga, as agreed with my supervisor.",
+    "line_items": [
+      {
+        "line_id": "C-058-L1",
+        "date": "2025-10-05",
+        "category": "lodging",
+        "description": "Hotel in Riga, 1 nights",
+        "amount": 683.94,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-058-L2",
+        "date": "2025-10-05",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 104.37,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-058-L3",
+        "date": "2025-10-05",
+        "category": "rail",
+        "description": "Return rail to Riga",
+        "amount": 93.68,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 480
+      },
+      {
+        "line_id": "C-058-L4",
+        "date": "2025-10-06",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 38.01,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-059",
+    "grantee_id": "G-011",
+    "budget_code": "BUD-FIELD-01",
+    "destination_city": "Prague",
+    "submitted_on": "2026-04-30",
+    "justification": "steering committee meeting in Prague, as agreed with my supervisor.",
+    "line_items": [
+      {
+        "line_id": "C-059-L1",
+        "date": "2026-04-11",
+        "category": "lodging",
+        "description": "Hotel in Prague, 1 nights",
+        "amount": 141.22,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 1
+      },
+      {
+        "line_id": "C-059-L2",
+        "date": "2026-04-11",
+        "category": "per_diem",
+        "description": "Subsistence, 2 days",
+        "amount": 106.9,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 2
+      },
+      {
+        "line_id": "C-059-L3",
+        "date": "2026-04-11",
+        "category": "air",
+        "description": "Return flight to Prague",
+        "amount": 191.49,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 720
+      },
+      {
+        "line_id": "C-059-L4",
+        "date": "2026-04-12",
+        "category": "taxi",
+        "description": "Airport transfer",
+        "amount": 30.93,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  },
+  {
+    "claim_id": "C-060",
+    "grantee_id": "G-009",
+    "budget_code": "BUD-CONF-02",
+    "destination_city": "Paris",
+    "submitted_on": "2026-04-30",
+    "justification": "partner site visit in Paris, as agreed with my supervisor. Let me know if anything is missing.",
+    "line_items": [
+      {
+        "line_id": "C-060-L1",
+        "date": "2026-01-18",
+        "category": "lodging",
+        "description": "Hotel in Paris, 4 nights",
+        "amount": 516.32,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "nights": 4
+      },
+      {
+        "line_id": "C-060-L2",
+        "date": "2026-01-18",
+        "category": "per_diem",
+        "description": "Subsistence, 5 days",
+        "amount": 314.17,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "days": 5
+      },
+      {
+        "line_id": "C-060-L3",
+        "date": "2026-01-18",
+        "category": "air",
+        "description": "Return flight to Paris",
+        "amount": 223.93,
+        "currency": "EUR",
+        "receipt_attached": true,
+        "distance_km": 720
+      },
+      {
+        "line_id": "C-060-L4",
+        "date": "2026-01-18",
+        "category": "conference_fee",
+        "description": "Registration fee",
+        "amount": 201.75,
+        "currency": "EUR",
+        "receipt_attached": true
+      }
+    ]
+  }
+]

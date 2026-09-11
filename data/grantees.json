@@ -1,0 +1,86 @@
+[
+  {
+    "grantee_id": "G-001",
+    "name": "Marit Solberg",
+    "grade": "senior",
+    "home_country": "Norway",
+    "grant_type": "travel"
+  },
+  {
+    "grantee_id": "G-002",
+    "name": "Tomás Ferreira",
+    "grade": "junior",
+    "home_country": "Portugal",
+    "grant_type": "travel"
+  },
+  {
+    "grantee_id": "G-003",
+    "name": "Ines Kowalczyk",
+    "grade": "principal",
+    "home_country": "Poland",
+    "grant_type": "field"
+  },
+  {
+    "grantee_id": "G-004",
+    "name": "Bram de Vries",
+    "grade": "senior",
+    "home_country": "Netherlands",
+    "grant_type": "travel"
+  },
+  {
+    "grantee_id": "G-005",
+    "name": "Aoife Byrne",
+    "grade": "junior",
+    "home_country": "Ireland",
+    "grant_type": "field"
+  },
+  {
+    "grantee_id": "G-006",
+    "name": "Lukas Brenner",
+    "grade": "principal",
+    "home_country": "Switzerland",
+    "grant_type": "travel"
+  },
+  {
+    "grantee_id": "G-007",
+    "name": "Selin Aydın",
+    "grade": "senior",
+    "home_country": "Germany",
+    "grant_type": "field"
+  },
+  {
+    "grantee_id": "G-008",
+    "name": "Nikolaj Holm",
+    "grade": "junior",
+    "home_country": "Denmark",
+    "grant_type": "travel"
+  },
+  {
+    "grantee_id": "G-009",
+    "name": "Chiara Ferri",
+    "grade": "senior",
+    "home_country": "Italy",
+    "grant_type": "travel"
+  },
+  {
+    "grantee_id": "G-010",
+    "name": "Anna Lindqvist",
+    "grade": "principal",
+    "home_country": "Sweden",
+    "grant_type": "travel"
+  },
+  {
+    "grantee_id": "G-011",
+    "name": "Petros Manolis",
+    "grade": "junior",
+    "home_country": "Greece",
+    "grant_type": "field"
+  },
+  {
+    "grantee_id": "G-012",
+    "name": "Hana Novotná",
+    "grade": "senior",
+    "home_country": "Czechia",
+    "grant_type": "travel"
+  }
+]

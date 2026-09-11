@@ -1,0 +1,4 @@
+litellm==1.83.9
+pydantic==2.12.5
+python-dotenv==1.0.1
+pytest==8.4.2

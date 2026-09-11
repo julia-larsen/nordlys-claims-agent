@@ -1,0 +1,32 @@
+[
+  {
+    "budget_code": "BUD-MOBILITY-01",
+    "label": "Researcher Mobility 2026",
+    "remaining_eur": 41200.0
+  },
+  {
+    "budget_code": "BUD-MOBILITY-02",
+    "label": "Researcher Mobility 2026 (reserve)",
+    "remaining_eur": 480.0
+  },
+  {
+    "budget_code": "BUD-FIELD-01",
+    "label": "Field Visits 2026",
+    "remaining_eur": 33800.0
+  },
+  {
+    "budget_code": "BUD-FIELD-02",
+    "label": "Field Visits 2026 (reserve)",
+    "remaining_eur": 610.0
+  },
+  {
+    "budget_code": "BUD-CONF-01",
+    "label": "Conference Attendance 2026",
+    "remaining_eur": 25400.0
+  },
+  {
+    "budget_code": "BUD-CONF-02",
+    "label": "Conference Attendance 2026 (reserve)",
+    "remaining_eur": 350.0
+  }
+]
