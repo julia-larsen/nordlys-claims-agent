@@ -199,9 +199,14 @@ correctly:
 
 | Scenario | $/claim | €/claim |
 |---|---|---|
-| Floor — pricing reverts to Feb-2025 levels | $0.0128 | €0.0110 |
 | Base — current pricing holds flat (best-supported by the last 15 months of actual data) | $0.0685 | €0.0589 |
 | Ceiling — one more reasoning-driven repricing step, same magnitude as the one already observed (2.0→2.5) | $0.1368 | €0.1176 |
+
+A "floor" scenario (pricing reverting to Feb-2025 levels) was considered and
+dropped: nothing in the last 15 months of actual pricing history supports a
+reversal, and the one repricing event we do have evidence for went the other
+direction. Treating a price drop as a planning assumption would be optimism,
+not measurement.
 
 **Annual projection**, at a few illustrative volumes — Nordlys's actual
 annual claim count is not stated anywhere in the case brief (only that
@@ -210,7 +215,6 @@ parametrized rather than pinned to one guessed number:
 
 | Scenario | 2,000 claims/yr | 10,000/yr | 50,000/yr |
 |---|---|---|---|
-| Floor | €22 | €110 | €550 |
 | Base | €118 | €589 | €2,944 |
 | Ceiling | €235 | €1,176 | €5,882 |
 
