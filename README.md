@@ -231,6 +231,101 @@ agent trajectories stay similar to the 60-claim fixture; a heavier real-world
 mix of line items per claim would raise both the token count per claim and
 the step-limit rate.
 
+## Alternative approaches that don't use an LLM
+
+Worth stating plainly: for *this specific handbook*, non-LLM approaches are
+serious competitors, not strawmen. `bootstrap/generate_data.py`'s label
+generator is itself a ~150-line deterministic rule engine that encodes
+S1–S13 exactly — the ground truth this project scores against was never
+produced by anything resembling reasoning over free text.
+
+**1. A rules engine / decision table.** Encode S1–S13 directly as code, or
+better, as a decision table a non-engineer can edit (a spreadsheet-driven
+rules layer, or a BRMS like Drools). Deterministic, auditable, and — see
+below — close to free to run. The honest cost isn't compute, it's that
+someone has to translate the policy into logic once, and again every time
+the policy changes. That's a much better trade than paying an LLM to
+re-derive the same logic on every single claim, provided the policy is
+stable enough that "every time it changes" isn't too often.
+
+**2. Gradient-boosted trees (XGBoost/LightGBM) on engineered features.**
+Genuinely interesting structurally: tree ensembles are axis-aligned
+threshold splits — "if days_late > 90" is the native representation of a
+decision tree — arguably a closer match to this problem than an LLM's
+free-form reasoning. But the EUR conversion, tier lookup, and day-count
+arithmetic still have to happen as deterministic preprocessing first (a
+tree doesn't do that math either), and at that point most of the hard part
+is already solved by code before the model sees a single feature. Also
+needs far more labeled examples than the 60 claims here to trust over a
+rules engine built from the same reference logic.
+
+**3. Regex/pattern extraction on the free-text justification.** The
+justifications in this fixture are template-generated (`JUSTIFY_OPEN` /
+`PURPOSES` in the bootstrap script) — a regex for `PA-\d{4}-\d{3}` and a
+keyword check for "no direct rail" would parse this exact fixture
+perfectly. The honest caveat is real-world-shaped: messier, non-templated
+free text is exactly where regex breaks and either an LLM or a human has to
+judge intent, which this synthetic set doesn't stress.
+
+**4. Better structured intake — i.e. don't solve it computationally at
+all.** If grantees submitted amounts, dates, currency, and a pre-approval
+reference into a structured form instead of a free-text paragraph, most of
+what makes this task "agentic" (order-dependent lookups, having to notice a
+date overlap in prose) disappears, because there is nothing left to infer.
+A lot of AI-shaped back-office problems are actually bad-intake-form-shaped
+problems.
+
+### Cost projection for option 1 (rules engine)
+
+This needs a different shape than the LLM projection above: marginal
+compute cost is close to zero, but there's a real, one-time build cost and
+an ongoing maintenance cost every time the handbook changes — costs the LLM
+approach mostly avoids by just re-reading an updated markdown file.
+
+**Marginal compute**, using real AWS Lambda pricing ($0.20 per 1M requests
++ $0.0000166667/GB-second) and a generous 128MB / 50ms per claim:
+
+- ≈ $0.0000003/claim (≈ €0.00000026) — at Nordlys's likely volume (thousands
+  to tens of thousands of claims/year), this is comfortably inside AWS
+  Lambda's always-free tier (1M requests/month, forever). It rounds to €0.
+
+**Build and maintenance** — necessarily illustrative (no universal number
+exists for engineer day-rate or how often Nordlys revises the handbook;
+adjust for your own institution), using an illustrative €500/day loaded
+engineer rate:
+
+| Assumption | Estimate |
+|---|---|
+| One-time build (encode S1–S13, with tests) | ~4 days → €2,000 |
+| Cost per handbook revision (change + test + deploy) | ~0.75 days → €375 |
+
+| Revisions/year | Year-1 total | Steady-state (year 2+) |
+|---|---|---|
+| 1 | €2,375 | €375/yr |
+| 2 | €2,750 | €750/yr |
+| 4 | €3,500 | €1,500/yr |
+
+**Against the LLM base-case projection from above:**
+
+| Volume | LLM (base scenario) | Rules engine (2 revisions/yr, steady-state) |
+|---|---|---|
+| 2,000 claims/yr | €118 | €750 |
+| 10,000 claims/yr | €589 | €750 |
+| 50,000 claims/yr | €2,944 | €750 |
+
+This is the nuance worth not glossing over: **the rules engine has a real
+fixed cost floor that a low-volume deployment might not clear.** At 2,000
+claims/year, the LLM's *entire annual API bill* is cheaper than just the
+maintenance cost of a rules engine that requires two policy updates that
+year — the crossover is somewhere around 10,000–15,000 claims/year at these
+illustrative rates, and moves earlier the less often the handbook changes.
+Above that volume, or wherever the actual handbook revision cadence is
+lower than assumed, the rules engine wins decisively and the gap only
+widens with scale, because its steady-state cost doesn't move with volume
+at all. The LLM approach's real advantage isn't cost at scale — it's a near-
+zero cost of *change*, since updating behavior means editing a markdown
+file, not shipping and testing code.
+
 ## Failure analysis
 
 **1. Step-limit non-completion, and it is not one failure mode.** Reading
